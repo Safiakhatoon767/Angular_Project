@@ -1,0 +1,74 @@
+/* Center everything */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e3ffe7, #d9e7ff);
+}
+
+/* Main Box */
+.counter-container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.counter-container h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Counter Number */
+#counter {
+    font-size: 80px;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Button Group */
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Buttons Style */
+.btn {
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Button Hover Effect */
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Individual Colors */
+.increment {
+    background: linear-gradient(to right, #00c9ff, #92fe9d);
+}
+
+.reset {
+    background: linear-gradient(to right, #f7971e, #ffd200);
+    color: black;
+}
+
+.decrement {
+    background: linear-gradient(to right, #f85032, #e73827);
+}
