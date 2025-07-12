@@ -1,0 +1,9 @@
+<div class="counter-container">
+  <h1>✨ Counter App ✨</h1>
+  <div id="counter">{{ count() }}</div> <!-- ✅ dynamic value -->
+  <div class="btn-group">
+    <button class="btn increment" (click)="handleCounter('+')">+</button>
+    <button class="btn reset" (click)="handleCounter('reset')">⭮</button>
+    <button class="btn decrement" (click)="handleCounter('-')">−</button>
+  </div>
+</div>
